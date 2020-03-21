@@ -26,7 +26,18 @@
         height: 80%;
         width: auto;    
     }
-
+    .centered {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .bottom-left {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    }
 </style>
 <body>
     <header>
@@ -51,42 +62,45 @@
         <h5 class="card-title">Noticias Principais</h5>
         <div class="carousel-item active">
             <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
-                <h5 class="card-title">Corona Virus</h5>
-                <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+                <img class="card-img-top img-thumbnail" src="imgs\coronavírus.jpg" alt="Imagem sobre Corona-Virus">
+                <h5 class="centered">Corona Virus</h5>
                 <div class="card-body">
-                    <p class="card-text">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</p>
-                </div>
-            </a>        
+                    <h5 class="bottom-left">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</h5>
+                </div>     
         </div>
         <div class="carousel-item">
-            <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
-                <h5 class="card-title">Corona Virus</h5>
-                <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+            <a href="https://globoesporte.globo.com/" class="btn">
+                <img class="card-img-top img-thumbnail" src="imgs\esporte.jpg" alt="Imagem sobre esporte">
+                <h5 class="centered">Noticas de esportes</h5>
                 <div class="card-body">
-                    <p class="card-text">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</p>
+                    <p class="bottom-left">Acompanhe as ultimas noticias sobre os esportes no mundo.</p>
                 </div>
+            </a>
             </a>            
         </div>
         <div class="carousel-item">
-            <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
-                <h5 class="card-title">Corona Virus</h5>
-                <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+            <a href="https://globoesporte.globo.com/" class="btn">
+                <h5 class="centered">Politica</h5>
+                <img class="card-img-top img-thumbnail" src="imgs\Economia.jpg" alt="Imagem de Economia">
                 <div class="card-body">
-                    <p class="card-text">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</p>
+                    <p class="bottom-left">Acompanhe a economia no mundo.</p>
                 </div>
-            </a>            
+            </a>          
         </div>
         <div class="carousel-item">
-            <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
-                <h5 class="card-title">Corona Virus</h5>
-                <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <p class="card-text">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</p>
-                </div>
+            <div class="card w-50">
+                <a href="https://globoesporte.globo.com/" class="btn">
+                    <h5 class="centered">Economia</h5>
+                    <img class="card-img-top img-thumbnail" src="imgs\politica.jpg" alt="Imagem de politica">
+                    <div class="card-body">
+                        <p class="bottom-left">Acompanhe como anda a economia no mundo.</p>
+                    </div>
+                </a>
+            </div>
             </a>            
         </div>
         <div class="card-body">
-            <p class="card-text">Acompanhe as ultimas noticias do mundo</p>
+            <p class="bottom-left">Acompanhe as ultimas noticias do mundo</p>
         </div>
     </div>
 </div>
@@ -106,19 +120,19 @@
                 <div class="row">
                     <div class="card w-50">  
                         <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
-                            <h5 class="card-title">Corona Virus</h5>
-                            <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+                            <img class="card-img-top img-thumbnail" src="imgs\coronavírus.jpg" alt="Imagem sobre Corona-Virus">
+                            <h5 class="centered">Corona Virus</h5>
                             <div class="card-body">
-                                <p class="card-text">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</p>
+                                <h5 class="bottom-left">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</h5>
                             </div>
                         </a>
                     </div>
                      <div class="card w-50">
                         <a href="https://globoesporte.globo.com/" class="btn">
-                            <h5 class="card-title">Título do card</h5>
-                            <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+                            <img class="card-img-top img-thumbnail" src="imgs\esporte.jpg" alt="Imagem sobre esporte">
+                            <h5 class="centered">Noticas de esportes</h5>
                             <div class="card-body">
-                                <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                                <p class="bottom-left">Acompanhe as ultimas noticias sobre os esportes no mundo.</p>
                             </div>
                         </a>
                     </div>
@@ -126,19 +140,19 @@
                 <div class="row">
                         <div class="card w-50">
                             <a href="https://globoesporte.globo.com/" class="btn">
-                                <h5 class="card-title">Título do card</h5>
-                                <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+                                <h5 class="centered">Politica</h5>
+                                <img class="card-img-top img-thumbnail" src="imgs\Economia.jpg" alt="Imagem de Economia">
                                 <div class="card-body">
-                                    <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                                    <p class="bottom-left">Acompanhe a economia no mundo.</p>
                                 </div>
                             </a>
                         </div>
                          <div class="card w-50">
                             <a href="https://globoesporte.globo.com/" class="btn">
-                                <h5 class="card-title">Título do card</h5>
-                                <img class="card-img-top img-thumbnail" src="imgs\g4.png" alt="Imagem de capa do card">
+                                <h5 class="centered">Economia</h5>
+                                <img class="card-img-top img-thumbnail" src="imgs\politica.jpg" alt="Imagem de politica">
                                 <div class="card-body">
-                                    <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                                    <p class="bottom-left">Acompanhe como anda a economia no mundo.</p>
                                 </div>
                             </a>
                         </div>
