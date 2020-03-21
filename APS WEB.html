@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>G4 - Seu site de noticias</title>
+</head>
+<style>
+    .cabecalho
+    {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(92, 12, 196);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem
+    {
+        height: 80%;
+        width: auto;    
+    }
+    .centered {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .bottom-left {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    }
+</style>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="img-fluid imagem" src="imgs\g4.png" alt="logo G4">
+        </div>
+    </header>
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="card w-100" alt="Noticia Principal">
+        <h5 class="card-title">Noticias Principais</h5>
+        <div class="carousel-item active">
+            <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
+                <img class="card-img-top img-thumbnail" src="imgs\coronavírus.jpg" alt="Imagem sobre Corona-Virus">
+                <h5 class="centered">Corona Virus</h5>
+                <div class="card-body">
+                    <h5 class="bottom-left">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</h5>
+                </div>     
+        </div>
+        <div class="carousel-item">
+            <a href="https://globoesporte.globo.com/" class="btn">
+                <img class="card-img-top img-thumbnail" src="imgs\esporte.jpg" alt="Imagem sobre esporte">
+                <h5 class="centered">Noticas de esportes</h5>
+                <div class="card-body">
+                    <h5 class="bottom-left">Acompanhe as ultimas noticias sobre os esportes no mundo.</h5>
+                </div>
+            </a>
+            </a>            
+        </div>
+        <div class="carousel-item">
+            <a href="https://g1.globo.com/politica/" class="btn">
+                <img class="card-img-top img-thumbnail" src="imgs\Economia.jpg" alt="Imagem de Economia">
+                <h5 class="centered">Politica</h5>
+                <div class="card-body">
+                    <h5 class="bottom-left">Acompanhe a economia no mundo.</h5>
+                </div>
+            </a>          
+        </div>
+        <div class="carousel-item">
+            <div class="card w-50">
+                <a href="https://exame.abril.com.br/economia/" class="btn">
+                    <img class="card-img-top img-thumbnail" src="imgs\politica.jpg" alt="Imagem de politica">
+                    <h5 class="centered">Economia</h5>
+                    <div class="card-body">
+                        <h5 class="bottom-left">Acompanhe como anda a economia no mundo.</h5>
+                    </div>
+                </a>
+            </div>
+            </a>            
+        </div>
+        <div class="card-body">
+            <p class="bottom-left">Acompanhe as ultimas noticias do mundo</p>   
+        </div>
+    </div>
+</div>
+
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+    </div>
+        <div class="col">
+            <div class="noticias">
+                <div class="row">
+                    <div class="card w-50">  
+                        <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" class="btn btn">
+                            <img class="card-img-top img-thumbnail" src="imgs\coronavírus.jpg" alt="Imagem sobre Corona-Virus">
+                            <h5 class="centered">Corona Virus</h5>
+                            <div class="card-body">
+                                <h5 class="bottom-left">Acompanhe as ultimas noticias do mundo sobre o Corona Virus</h5>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="card w-50">
+                        <a href="https://globoesporte.globo.com/" class="btn">
+                            <img class="card-img-top img-thumbnail" src="imgs\esporte.jpg" alt="Imagem sobre esporte">
+                            <h5 class="centered">Noticas de esportes</h5>
+                            <div class="card-body">
+                                <h5 class="bottom-left">Acompanhe as ultimas noticias sobre os esportes no mundo.</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="card w-50">
+                            <a href="https://g1.globo.com/politica/" class="btn">
+                                <img class="card-img-top img-thumbnail" src="imgs\Economia.jpg" alt="Imagem de Economia">
+                                <h5 class="centered">Politica</h5>
+                                <div class="card-body">
+                                    <h5 class="bottom-left">Acompanhe a economia no mundo.</h5>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="card w-50">
+                            <a href="https://exame.abril.com.br/economia/" class="btn">
+                                <img class="card-img-top img-thumbnail" src="imgs\politica.jpg" alt="Imagem de politica">
+                                <h5 class="centered">Economia</h5>
+                                <div class="card-body">
+                                    <h5 class="bottom-left">Acompanhe como anda a economia no mundo.</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+            </div>
+        </div>
+
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+</body>
+</html>
