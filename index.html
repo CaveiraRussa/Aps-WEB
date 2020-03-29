@@ -63,8 +63,8 @@
     .img-card
     {
         width: 1200px;
-        height: 450px;
-        display:flex;
+        height: 400px;
+        display: flex;
     }
 
     .carousel-tamanho-e-posição-fixo
@@ -76,9 +76,12 @@
         display: flex;
     }
     
-    .card-margem
+    .card-tamanho
     {
         margin: 10px 0;
+        width: calc(200% / 2);
+        min-height: 500px;
+        display: flex;
     }
 
     .row
@@ -141,7 +144,7 @@
                 <div class="carousel-inner rounded border">
                     <div class="carousel-item active">
                         <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" target="_blank">
-                            <img class="d-block img-carousel" src="imgs\coronavírus.jpg" alt="Primeiro Slide">
+                            <img class="img-carousel mx-auto img-thumbnail" src="imgs\coronavírus.jpg" alt="Primeiro Slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Corona Virus</h5>
                                 <p>Acompanhe as ultimas noticias do mundo sobre o Corona Virus</p>
@@ -150,7 +153,7 @@
                     </div>
                     <div class="carousel-item">
                         <a href="https://globoesporte.globo.com/" target="_blank">
-                            <img class="d-block img-carousel" src="imgs\esporte.jpg" alt="Segundo Slide">
+                            <img class="img-carousel mx-auto img-thumbnail" src="imgs\esporte.jpg" alt="Segundo Slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Noticas de esportes</h5>
                                 <p>Acompanhe as ultimas noticias sobre os esportes no mundo.</p>
@@ -159,16 +162,16 @@
                     </div>
                     <div class="carousel-item">
                         <a href="https://g1.globo.com/politica/" target="_blank">
-                            <img class="d-block img-carousel" src="imgs\politica.jpg" alt="Terceiro Slide">
+                            <img class="img-carousel mx-auto img-thumbnail" src="imgs\politica.jpg" alt="Terceiro Slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Politica</h5>
-                                <p>Acompanhe a politica do mundo.</p>
+                                <p>Acompanhe a economia no mundo.</p>
                             </div>
                         </a>
                     </div>
                     <div class="carousel-item">
                         <a href="https://exame.abril.com.br/economia/" target="_blank">
-                            <img class="d-block img-carousel" src="imgs\Economia.jpg" alt="Quarto Slide">
+                            <img class="img-carousel mx-auto img-thumbnail" src="imgs\Economia.jpg" alt="Quarto Slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Economia</h5>
                                 <p>Acompanhe como anda a economia no mundo.</p>
@@ -193,7 +196,7 @@
                 <div class="noticias">
                     <div class="row">
                         <div class="col-xl-5 col-sm-12">
-                            <div class="card w-auto card-margem fundo-opaco">  
+                            <div class="card w-auto card-tamanho fundo-opaco">  
                                 <a href="https://aovivo.folha.uol.com.br/equilibrioesaude/2020/03/12/5888-acompanhe-todas-as-informacoes-sobre-a-pandemia-de-coronavirus.shtml" target="_blank">
                                     <img class="card-img-top mx-auto img-thumbnail img-card" src="imgs\coronavírus.jpg" alt="Imagem sobre Corona-Virus">
                                     <div class="card-body">
@@ -204,7 +207,7 @@
                             </div>
                         </div>
                         <div class="col-xl-5 col-sm-12">
-                            <div class="card w-auto card-margem fundo-opaco">
+                            <div class="card w-auto card-tamanho fundo-opaco">
                                 <a href="https://globoesporte.globo.com/" target="_blank">
                                     <img class="card-img-top mx-auto img-thumbnail img-card" src="imgs\esporte.jpg" alt="Imagem sobre esporte">
                                     <div class="card-body">
@@ -217,18 +220,18 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-5 col-sm-12">
-                            <div class="card w-45 card-margem fundo-opaco">
+                            <div class="card w-45 card-tamanho fundo-opaco">
                                 <a href="https://g1.globo.com/politica/" target="_blank">
                                     <img class="card-img-top mx-auto img-thumbnail img-card" src="imgs\politica.jpg" alt="Imagem de Economia">
                                     <div class="card-body">
                                         <h5 class="card-title">Politica</h5>
-                                        <p class="card-text">Acompanhe a politica do mundo</p>
+                                        <p class="card-text">Acompanhe a economia no mundo</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-5 col-sm-12">
-                            <div class="card w-45 card-margem fundo-opaco">
+                            <div class="card w-45 card-tamanho fundo-opaco">
                                 <a href="https://exame.abril.com.br/economia/" target="_blank">
                                     <img class="card-img-top mx-auto img-thumbnail img-card" src="imgs\Economia.jpg" alt="Imagem de politica">
                                     <div class="card-body">
